@@ -39,7 +39,17 @@ Utilisez les identifiants suivants pour accéder à l’application :
 	•	Email : admin@crm.com
 	•	Mot de passe : 123456
 
-⸻
+---
+
+## Tests
+
+Ce projet utilise **Vitest** et **React Testing Library** pour valider le bon fonctionnement des composants.
+
+### Lancer les tests
+
+npm run test
+
+---
 
 ## À propos
 
