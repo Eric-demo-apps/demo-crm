@@ -23,6 +23,8 @@ Ce projet est une démonstration d’une application CRM minimaliste développé
 - Tailwind CSS
 - Vite
 - React Router DOM
+- Vitest
+- React Testing Labrary
 
 ---
 
