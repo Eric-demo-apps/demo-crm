@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+# Mini CRM – Démonstration React + Zustand
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est une démonstration d’une application CRM minimaliste développée avec React, Zustand et Tailwind CSS. Il a été conçu pour illustrer mes compétences en développement front-end moderne dans un contexte réaliste d’interface utilisateur, de gestion d’état et de navigation protégée.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités
 
-## Expanding the ESLint configuration
+- Authentification simulée avec Zustand et React Router
+- Tableau des clients responsive avec options d'action (voir, modifier)
+- Ajout et modification de clients via une modale réutilisable
+- Affichage des détails d’un client dans une carte claire et lisible
+- Gestion d’état global sans Redux
+- Interface épurée avec Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Stack technique
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- React 18
+- TypeScript
+- Zustand
+- Tailwind CSS
+- Vite
+- React Router DOM
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Lancer le projet en local
+
+git clone https://github.com/eric-demo-projects/mini-crm.git
+cd mini-crm
+npm install
+npm run dev
+
+## Accès de démonstration
+
+Utilisez les identifiants suivants pour accéder à l’application :
+	•	Email : admin@crm.com
+	•	Mot de passe : 123456
+
+⸻
+
+## À propos
+
+Ce projet a été réalisé dans le cadre d’une démonstration technique.
+Je suis disponible pour échanger à propos du projet, de ses choix techniques ou d’opportunités de collaboration.
+
+http://linkedin.com/in/ericfrontdev
