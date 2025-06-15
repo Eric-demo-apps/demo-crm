@@ -38,7 +38,7 @@ npm run dev
 ## Accès de démonstration
 
 Utilisez les identifiants suivants pour accéder à l’application :
-	•	Email : admin@crm.com
+	•	Email : demo@example.com
 	•	Mot de passe : 123456
 
 ---
