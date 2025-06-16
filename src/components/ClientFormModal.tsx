@@ -42,8 +42,8 @@ export default function ClientFormModal({
   }
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-40 z-50 flex items-center justify-center">
-      <div className="bg-white p-6 rounded-xl shadow-lg max-w-md w-full relative">
+    <div className="fixed inset-0 bg-black bg-opacity-30 z-50 flex items-center justify-center">
+      <div className="bg-white p-6 rounded-xl shadow-xl max-w-md w-full space-y-4">
         <button
           onClick={onClose}
           className="absolute top-2 right-3 text-xl text-gray-500 hover:text-black"
